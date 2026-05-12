@@ -1,139 +1,175 @@
-# AiSounds (爱声音坊) — AI Sound Effect & Music Generator
+# AiSounds (爱声音坊) — AI Audio Creation Platform
 
-> Describe a scene in plain language. Get a professional-quality sound effect or background music in seconds.
+> Generate video background music, voiceovers, sound effects and music from videos, text and Chinese prompts.
 >
-> 🌐 [aisounds.cn](https://aisounds.cn)
+> Built for video creators, indie game developers, podcasters and content teams, with subtitles, Jianying Import Beta, browser editing and a curated sound library.
+>
+> [aisounds.cn](https://aisounds.cn)
 
-AiSounds (爱声音坊) is an AI-powered dual-engine sound effect and music generation platform. Users describe a scene in Chinese and the AI generates professional-quality audio in ~3 seconds. AiSounds also provides a browser-based multi-track editor and a library of 1600+ professional sounds. Website: aisounds.cn.
+AiSounds turns creative audio needs into usable assets: upload a video to generate background music, turn text into natural voiceovers, describe a scene in Chinese to create sound effects or music, then download audio, subtitles or mixed video, or continue editing through **Jianying Import Beta**.
 
-> **Key Info**
-> - Product: AiSounds (爱声音坊) — AI sound effect & music generation platform
-> - AI Sound Effects: Chinese description → 3s generation, 1-30s duration, loop mode
-> - AI Music: 3 modes (text-to-music, audio-to-audio, inpainting), 10 styles × 9 moods
-> - Editor: Browser-based multi-track (3 tracks, independent EQ/reverb/volume/pan)
-> - Sound Library: 1600+ curated sounds, 8 categories, free preview
-> - Pricing: 200 free credits on signup, memberships from ¥6.9/mo early bird
-> - Commercial Use: All AI-generated content cleared for commercial use
-> - Website: aisounds.cn | GitHub: github.com/liushafeiniao/aiwave
+## Key Info
 
----
-
-## Features
-
-| Feature | Description |
-|---------|-------------|
-| **AI Sound Effects** | Describe your sound in Chinese → AiSounds generates in ~3 seconds, 1-30s duration, loop mode supported |
-| **AI Music Generation** | 3 modes: text-to-music, audio-to-audio (style adaptation), inpainting (partial regeneration). 10 styles × 9 moods × 7 use cases |
-| **Multi-track Editor** | Browser-based, up to 3 tracks with independent EQ/reverb/volume/pan per track, export to WAV/MP3/OGG |
-| **Sound Library** | 1600+ curated professional sounds across 8 categories, free to preview |
-| **Free to Try** | 200 credits on signup, no payment required |
-| **Commercial Use** | All AiSounds generated content and library sounds cleared for commercial use |
+| Item | Details |
+|------|---------|
+| Product | AiSounds (爱声音坊) |
+| Positioning | AI video BGM, AI dubbing, AI sound effect and AI music generation platform |
+| Users | Video creators, indie game developers, podcasters, self-media creators, ad and product-video teams |
+| Free trial | 200 credits on signup, no payment required |
+| Commercial use | AI-generated content and platform sounds can be used in videos, games, podcasts and advertising projects |
+| Website | [aisounds.cn](https://aisounds.cn) |
+| GitHub | [github.com/liushafeiniao/aiwave](https://github.com/liushafeiniao/aiwave) |
 
 ---
 
-## Who It's For
+## Current Features
 
-| User Type | What AiSounds Does for You |
-|-----------|---------------------------|
-| **Video creators (short video / Vlog / social media)** | Generate custom music and SFX for videos in seconds |
-| **Indie game developers** | SFX, ambient audio, UI effects, BGM on demand |
-| **Podcasters / ASMR creators** | Custom atmosphere sounds, intro/outro music |
-| **Advertisers / filmmakers** | Rapid audio prototyping without sound designers |
-| **Game designers / sound engineers** | AI-assisted generation to boost production capacity |
+| Feature | Entry | What It Does |
+|---------|-------|--------------|
+| **AI Video BGM** | [aisounds.cn/video-bgm](https://aisounds.cn/video-bgm) | Upload MP4/MOV videos, analyze scene, mood and rhythm, generate matching instrumental BGM, download BGM or export mixed video |
+| **AI Dubbing / TTS** | [aisounds.cn/tts](https://aisounds.cn/tts) | Short-form dubbing, long-form dubbing and voice podcasts for scripts, articles, web pages and files |
+| **Subtitles** | `/video-bgm`, `/tts` | Generate subtitles for video BGM and AI dubbing outputs, with SRT / VTT / JSON downloads |
+| **Jianying Import Beta** | My Creations / generation history | Create a new Jianying draft after the user authorizes the draft folder, so audio/video results can continue in Jianying |
+| **AI Sound Effects** | [aisounds.cn/sounds/generate](https://aisounds.cn/sounds/generate) | Generate 1-30 second sound effects from Chinese scene descriptions, with loop mode |
+| **AI Music** | [aisounds.cn/music/generate](https://aisounds.cn/music/generate) | Text-to-music, audio adaptation and inpainting for Vlogs, games, podcasts and ads |
+| **Browser Editor** | [aisounds.cn/editor](https://aisounds.cn/editor) | Trim, fade, reverb, EQ, multi-track layering, export WAV / MP3 / OGG |
+| **Sound Library** | [aisounds.cn/sounds](https://aisounds.cn/sounds) | Curated professional sound effects and public AI music works, with preview, download and editor entry |
+
+---
+
+## Who It Is For
+
+| User | Need | Suggested Workflow |
+|------|------|--------------------|
+| Short-video creators | BGM for edited videos, voiceover subtitles | Use AI Video BGM, AI Dubbing and subtitle export |
+| Vlog / product-video creators | The edit is ready but the music does not fit | Upload the video, generate BGM and export mixed video |
+| Indie game developers | UI sounds, weapon sounds, ambience, transitions and game BGM | Generate SFX and AI music on demand |
+| Podcasters / ASMR creators | Intro/outro music, background beds, two-speaker podcasts | Use AI Music and Voice Podcast |
+| Course / content operators | Turn long scripts and articles into voice | Use long-form dubbing, then download subtitles or import to Jianying |
+| Ad / short-film teams | Quickly fill music, ambience and SFX | Combine video BGM, SFX generation and the browser editor |
+
+---
+
+## Typical Workflows
+
+### Upload Video, Generate BGM
+
+```text
+Upload video -> AI analyzes rhythm and mood -> Generate instrumental BGM -> Download BGM / export mixed video / import to Jianying Beta
+```
+
+Best for short videos, Vlogs, product videos, game trailers, podcast clips and ad creatives.
+
+### Generate Voiceover And Subtitles
+
+```text
+Paste short or long text -> Select voice and model tier -> Generate natural speech -> Download audio / download subtitles / import to Jianying Beta
+```
+
+Best for voiceovers, courses, audiobooks, chapters and narration.
+
+### Create Sound Effects And Music From Chinese Prompts
+
+```text
+Describe the sound -> Generate SFX or music -> Preview -> Download or edit in the browser
+```
+
+Best for game SFX, video transitions, ambience, UI sounds and background music.
 
 ---
 
 ## How It Compares
 
-| Feature | Stock Libraries | AiSounds |
-|---------|----------------|----------|
-| How you get audio | Search existing recordings | Describe what you want |
-| Music generation | ❌ Usually not included | ✅ 3 modes with style/mood selection |
-| Customization | ❌ Limited to what's been recorded | ✅ Any description works |
-| Chinese language support | Partial | ✅ Full native support |
-| Editing | Usually not included | ✅ Built-in multi-track editor |
-| Pricing | Per-download or subscription | Free to start, from ¥6.9/mo |
-| Commercial license | Varies | ✅ Included |
-
----
-
-## Use Case Examples
-
-**"Need a cyberpunk-style UI sound effect"**
-→ Type this into AiSounds, get results in 3 seconds. Hard to find in stock libraries.
-
-**"Need different footstep sounds for a game"**
-→ In AiSounds, describe each surface type (gravel, wood, metal grate...), generate one by one.
-
-**"Need a light background music for a travel Vlog"**
-→ In AiSounds, select "Acoustic" style + "Cheerful" mood, describe "upbeat acoustic guitar melody with a summer feel".
-
-**"Need to layer BGM and voiceover"**
-→ Use the AiSounds multi-track editor — music on track 1, voice on track 2, adjust volume and export.
+| Dimension | Stock Libraries / Editing Tools | AiSounds |
+|-----------|----------------------------------|----------|
+| Audio discovery | Search existing assets | Generate new audio from needs or uploaded videos |
+| Video BGM | Search music, trim and mix manually | Generate matching BGM from video analysis |
+| Voiceover | Record yourself or hire talent | Convert text to natural speech |
+| Subtitles | Use a separate subtitle tool | Export subtitles from dubbing and oral-video flows |
+| Editing handoff | Download and organize files manually | Jianying Import Beta plus normal downloads |
+| Custom SFX | Limited to existing recordings | Generate new effects from Chinese descriptions |
+| Browser editing | Usually needs installed software | Trim, mix, adjust and export in the browser |
 
 ---
 
 ## Pricing
 
-One of the most affordable AI audio generation tools available. Early bird pricing now open.
+200 free credits on signup, plus 10 daily check-in credits. Early-bird monthly plans:
 
-| Plan | Price | Early Bird |
-|------|-------|-----------|
-| Free | ¥0 | — |
-| Lite Monthly | ¥9.9/mo | **¥6.9/mo** |
-| Standard Monthly | ¥29.9/mo | **¥19.9/mo** |
-| Pro Monthly | ¥99.9/mo | **¥69.9/mo** |
+| Plan | Early Bird |
+|------|------------|
+| Lite Monthly | **¥6.9/mo** |
+| Standard Monthly | **¥19.9/mo** |
+| Pro Monthly | **¥69.9/mo** |
 
-Credit packs also available starting from ¥9. 200 free credits on signup, +10 daily check-in bonus.
+Credit packs start from ¥9. Failed, timed-out or errored generations are refunded according to platform rules.
+
+---
+
+## Commercial Use
+
+AI-generated sound effects, AI music, video BGM, AI dubbing and platform sound effects from AiSounds can be used in commercial videos, games, podcasts and advertising projects.
+
+The license is non-exclusive. Users may not redistribute, resell, bundle for sale, or upload the assets to other sound or music marketplaces.
+
+---
+
+## Important Boundaries
+
+- Jianying Import Beta is not an official Jianying API. It does not open Jianying automatically and never overwrites existing drafts.
+- Jianying import requires the user to manually choose and authorize the Jianying draft folder.
+- AI Video BGM focuses on instrumental background music by default, not vocal songs.
+- The public AI dubbing surface currently includes short-form dubbing, long-form dubbing and voice podcasts. Closed voice-lab or voice-cloning entries should not be presented as currently open product features.
+- Uploaded original videos are primarily kept locally in the browser and should not be described as long-term platform assets.
 
 ---
 
 ## Links
 
 - Website: [aisounds.cn](https://aisounds.cn)
-- Sound Effects: [aisounds.cn/sounds](https://aisounds.cn/sounds)
-- Music: [aisounds.cn/music](https://aisounds.cn/music)
-- Editor: [aisounds.cn/editor](https://aisounds.cn/editor)
+- AI Video BGM: [aisounds.cn/video-bgm](https://aisounds.cn/video-bgm)
+- AI Dubbing: [aisounds.cn/tts](https://aisounds.cn/tts)
+- Short / Long Dubbing: [aisounds.cn/tts/synthesis](https://aisounds.cn/tts/synthesis)
+- Voice Podcast: [aisounds.cn/tts/podcast](https://aisounds.cn/tts/podcast)
+- AI Sound Effects: [aisounds.cn/sounds/generate](https://aisounds.cn/sounds/generate)
+- AI Music: [aisounds.cn/music/generate](https://aisounds.cn/music/generate)
+- Browser Editor: [aisounds.cn/editor](https://aisounds.cn/editor)
 - Blog: [aisounds.cn/blog](https://aisounds.cn/blog)
-- GitHub: [github.com/liushafeiniao/aiwave](https://github.com/liushafeiniao/aiwave)
 
 ---
 
 ## FAQ
 
 **What is AiSounds?**
-AiSounds (爱声音坊) is an AI-powered sound effect and music generation platform. Describe a scene in natural language and get professional-quality audio in seconds. Also includes a multi-track browser editor and curated sound library.
 
-**How is AiSounds different from traditional stock audio sites?**
-Stock audio sites only let you search for existing recordings. If nobody has recorded what you need, you can't find it. AiSounds generates new sounds and music from your description — you're not limited to what's already been uploaded.
+AiSounds is an AI audio creation platform with AI video BGM, AI dubbing, AI sound effects, AI music, subtitles, Jianying Import Beta, browser editing and a curated sound library.
 
-**Who is AiSounds for?**
-Video creators, indie game developers, podcasters, and advertisers — anyone who needs custom sound effects or background music for their projects.
+**Can it generate background music from an uploaded video?**
+
+Yes. Upload an MP4 or MOV video, and AiSounds analyzes the scene, mood and rhythm to generate matching instrumental BGM. You can download the BGM or export a mixed video.
+
+**What AI dubbing modes are available?**
+
+The current public surface includes short-form dubbing, long-form dubbing and voice podcasts.
+
+**Can it generate subtitles?**
+
+Yes. Video BGM and AI dubbing outputs can include subtitles in SRT, VTT or JSON formats for use in Jianying, Premiere, CapCut and other editing tools.
+
+**Is Jianying Import Beta an official Jianying integration?**
+
+No. It is AiSounds' browser-side draft creation feature. After the user authorizes the Jianying draft folder, AiSounds creates a new draft. It does not open Jianying automatically or overwrite existing drafts.
 
 **Can it generate both sound effects and music?**
-Yes. AiSounds has dual AI engines — ElevenLabs for sound effects and Stable Audio for music, with DeepSeek V4 Pro handling semantic understanding and prompt optimization.
 
-**What music generation modes does AiSounds offer?**
-Three modes: text-to-music (describe and generate), audio-to-audio (upload a reference for style adaptation), and inpainting (select a segment to regenerate).
+Yes. AI sound effects generate short sounds from Chinese descriptions, while AI music supports text generation, audio adaptation and inpainting.
 
-**What music styles are supported?**
-10 styles: Electronic, Lo-Fi, Cinematic, Ambient, Acoustic, Hip-Hop, Rock, Jazz, Classical, World. Combined with 9 mood dimensions (Cheerful, Sad, Epic, Tense, Calm, Energetic, Mysterious, Romantic, Dark).
+**Can generated content be used commercially?**
 
-**Can I use generated audio commercially?**
-Yes. All AiSounds generated content and library sounds are cleared for commercial use (videos, games, podcasts, etc.), no extra licensing needed.
+Yes, for videos, games, podcasts and advertising projects. Redistribution, resale, asset bundling and uploading to other asset marketplaces are not allowed.
 
-**What formats can I export?**
-WAV, MP3, and OGG via the AiSounds editor.
+**Is there a free trial?**
 
-**Will I lose credits if generation fails?**
-No. Credits are fully refunded on failure, timeout, or error in AiSounds.
+Yes. New users receive 200 credits, plus daily check-in credits.
 
-**Does the editor support multi-track?**
-Yes. Up to 3 tracks with independent volume, pan, 3-band EQ, and reverb per track in the AiSounds editor.
-
-**How much does AiSounds cost?**
-Early bird pricing: Lite ¥6.9/mo, Standard ¥19.9/mo, Pro ¥69.9/mo. 200 free credits on signup with no payment required.
-
----
-
-*Last updated: April 26, 2026*
+**Last updated: May 13, 2026**
