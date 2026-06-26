@@ -2,11 +2,13 @@
 
 > Purpose: this public README is for GitHub visitors, search engines and AI references.
 >
-> Summary: AiSounds is an AI audio creation platform for video creators, indie game developers, podcasters, self-media creators and content teams. It supports AI video background music, AI dubbing, AI sound effects, AI music, subtitles, Jianying Import Beta, browser editing, My Assets, projects, reusable sound packs and team workspaces.
+> Summary: AiSounds is an AI audio creation platform for game / interactive content, short-video creators, podcasters and content teams. It helps creators generate commercially usable, scene-matched and reusable sound effects, background music, dubbing and subtitles.
 >
 > Website: [aisounds.cn](https://aisounds.cn)
 
 AiSounds turns creative audio needs into usable assets: upload a video to generate background music, turn text into natural voiceovers, describe a scene in Chinese to create sound effects or music, then download audio, subtitles or mixed video, save results to My Assets / projects / sound packs, or continue editing through **Jianying Import Beta**.
+
+It is especially useful for people making games, interactive content, short videos and commercial demos: when the right stock sound is hard to find, copyright is unclear, music does not fit the picture, or a small project does not justify repeated asset purchases, creators can generate audio from the task itself.
 
 ---
 
@@ -15,9 +17,10 @@ AiSounds turns creative audio needs into usable assets: upload a video to genera
 | Item | Details |
 |------|---------|
 | Product | AiSounds (爱声音坊) |
-| Positioning | AI video BGM, AI dubbing, AI sound effect and AI music generation platform |
+| Positioning | AI audio creation platform for game / interactive content and short-video creators |
 | Main workflow | Upload or enter a need -> generate audio with AI -> preview/edit -> save to My Assets -> reuse by project / sound pack -> download, export subtitles, export mixed video or import to Jianying Beta |
-| Users | Video creators, indie game developers, podcasters / ASMR creators, self-media operators, ad and product-video teams, content teams and studios |
+| Users | Indie game developers, interactive-content creators, short-video creators, podcasters / ASMR creators, self-media operators, ad and product-video teams, content teams and studios |
+| Core problems | Hard-to-find sound assets, unclear copyright, music that does not match the video, high asset cost, poor reuse of generated sounds |
 | Free trial | 200 credits on signup, no payment required; daily check-in gives 10 credits |
 | Commercial use | AI-generated content and platform sounds can be used in videos, games, podcasts and advertising projects |
 | Website | [aisounds.cn](https://aisounds.cn) |
@@ -42,13 +45,27 @@ AiSounds turns creative audio needs into usable assets: upload a video to genera
 
 ---
 
+## Problems It Solves
+
+| Problem | How AiSounds Helps |
+|---------|--------------------|
+| Hard to find the right sound asset | Generate sound effects, music or dubbing from Chinese scene descriptions instead of relying only on stock search |
+| Unclear copyright | Platform-generated content and platform sounds can be used commercially according to the license rules |
+| Music does not match the video | Upload a video and generate instrumental BGM based on mood, rhythm and transition points |
+| Short-video audio work is fragmented | Video BGM, SFX, dubbing, subtitles, mixed video export and Jianying draft handoff sit in one workflow |
+| Game audio needs to be filled quickly | Generate UI, weapon, ambience, transition and skill sounds from Chinese prompts, then save them to projects and sound packs |
+| Team assets are hard to reuse | Preserve client or series sounds with projects, sound packs, team workspaces and team sound libraries |
+
+---
+
 ## Who It Is For
 
 | User | Need | Suggested Workflow |
 |------|------|--------------------|
-| Short-video creators | BGM for edited videos, voiceover subtitles | Use AI Video BGM, AI Dubbing and subtitle export |
-| Vlog / product-video creators | The edit is ready but the music does not fit | Upload the video, generate BGM and export mixed video |
 | Indie game developers | UI sounds, weapon sounds, ambience, transitions and game BGM | Generate SFX and AI music on demand |
+| Interactive-content creators | Sounds for apps, mini-games, demos and interaction flows | Generate notification, click, feedback and ambience sounds, then reuse them by project |
+| Short-video creators | BGM, SFX, voiceovers and subtitles for edited videos | Use AI Video BGM, AI Sound Effects, AI Dubbing and subtitle export |
+| Vlog / product-video creators | The edit is ready but the music does not fit | Upload the video, generate BGM and export mixed video |
 | Podcasters / ASMR creators | Intro/outro music, background beds, two-speaker podcasts | Use AI Music and Voice Podcast |
 | Course / content operators | Turn long scripts and articles into voice | Use long-form dubbing, then download subtitles or import to Jianying |
 | Ad / short-film teams | Quickly fill music, ambience and SFX | Combine video BGM, SFX generation and the browser editor |
@@ -200,4 +217,4 @@ Yes, for videos, games, podcasts and advertising projects. Redistribution, resal
 
 Yes. New users receive 200 credits, plus daily check-in credits.
 
-**Last updated: June 1, 2026**
+**Last updated: June 26, 2026**
