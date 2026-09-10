@@ -1,9 +1,8 @@
 # AiSounds (爱声音坊) — AI Audio Creation Platform
 
-> Purpose: this public README is for GitHub visitors, search engines and AI references.
->
-> Summary: AiSounds is an AI audio creation platform for game / interactive content, short-video creators, podcasters and content teams. It helps creators generate commercially usable, scene-matched and reusable sound effects, background music, dubbing and subtitles.
->
+AiSounds is an AI audio creation platform for game / interactive content, short-video creators, podcasters and content teams. Generate sound effects, music, voiceovers and subtitles, or use focused agents for video dubbing, project sound packs and audio cleanup.
+
+[简体中文](README.md)
 > Website: [aisounds.cn](https://aisounds.cn)
 
 AiSounds turns creative audio needs into usable assets: upload a video to generate background music, turn text into natural voiceovers, describe a scene in Chinese to create sound effects or music, then download audio, subtitles or mixed video, save results to My Assets / projects / sound packs, or continue editing through **Jianying Import Beta**.
@@ -21,7 +20,7 @@ It is especially useful for people making games, interactive content, short vide
 | Main workflow | Upload or enter a need -> generate audio with AI -> preview/edit -> save to My Assets -> reuse by project / sound pack -> download, export subtitles, export mixed video or import to Jianying Beta |
 | Users | Indie game developers, interactive-content creators, short-video creators, podcasters / ASMR creators, self-media operators, ad and product-video teams, content teams and studios |
 | Core problems | Hard-to-find sound assets, unclear copyright, music that does not match the video, high asset cost, poor reuse of generated sounds |
-| Free trial | 200 credits on signup, no payment required; daily check-in gives 10 credits |
+| Free trial | [See current trial options and credit rewards](https://aisounds.cn/free); review each task's cost before submitting |
 | Commercial use | AI-generated content and platform sounds can be used in videos, games, podcasts and advertising projects |
 | Website | [aisounds.cn](https://aisounds.cn) |
 | GitHub | [github.com/liushafeiniao/aiwave](https://github.com/liushafeiniao/aiwave) |
@@ -42,6 +41,20 @@ It is especially useful for people making games, interactive content, short vide
 | **My Assets** | [aisounds.cn/assets](https://aisounds.cn/assets) | Manage generated, uploaded, favorited, purchased or downloaded sounds by project, sound pack and sound library |
 | **Team Edition / Workspaces** | [aisounds.cn/points](https://aisounds.cn/points) | Users keep personal accounts and switch between personal and team workspaces; teams share seats, team quotas, team wallet and team assets |
 | **Sound Library** | [aisounds.cn/sounds](https://aisounds.cn/sounds) | Curated professional sound effects and public AI music works, with preview, download and editor entry |
+| **AI Agents** | [aisounds.cn/agents](https://aisounds.cn/agents) | Focused workflows for video BGM, songs, video sound effects, project sound packs, novel voice packs, video dubbing, soundtrack replacement and audio cleanup |
+| **Prompt Templates** | [aisounds.cn/prompts](https://aisounds.cn/prompts) | Explore SFX, BGM and voiceover prompts, then refine descriptions with in-product prompt assistance |
+
+### Choose An Agent By Task
+
+| Task | Agent | What It Does |
+|---|---|---|
+| Create a song from lyrics | [AI Songs](https://aisounds.cn/agents/ai-song) | Review lyric sections and singing direction, then generate a song to preview and download |
+| Add action sounds and ambience to video | [Video Sound Effects](https://aisounds.cn/agents/video-dubbing) | Generate synchronized Foley, ambience and action sounds from video |
+| Create a set of project sounds | [Project Sound Pack](https://aisounds.cn/agents/sfx-pack) | Upload a project document or describe the sounds you need |
+| Produce multi-character story narration | [Novel Voice Pack](https://aisounds.cn/agents/novel-voice-pack) | Split narration and dialogue, review characters and voices, and export dubbing and subtitle assets |
+| Add or replace video narration | [Video Dubbing Factory](https://aisounds.cn/agents/oral-video) | Choose narration, voice replacement, lip sync or presenter replacement and generate video and asset packages |
+| Keep dialogue and replace background music | [Soundtrack Replacement](https://aisounds.cn/agents/soundtrack-swap) | Clean original audio, generate new music and mix the result |
+| Reduce noise or separate vocals and accompaniment | [Audio Cleanup](https://aisounds.cn/agents/audio-cleanup) | Process uploaded audio or video and export assets for further editing |
 
 ---
 
@@ -127,15 +140,9 @@ Best for studios, client projects, serial short videos, course production and ad
 
 ## Pricing
 
-200 free credits on signup, plus 10 daily check-in credits. Early-bird monthly plans:
+Visit [Free Trial](https://aisounds.cn/free) for current signup rewards and trial options, then choose a personal membership, credit pack or team plan as needed.
 
-| Plan | Early Bird |
-|------|------------|
-| Lite Monthly | **¥6.9/mo** |
-| Standard Monthly | **¥19.9/mo** |
-| Pro Monthly | **¥69.9/mo** |
-
-Team plans start with the Collaboration plan and include team seats, a 7-day team credit pool, daily team quotas and team asset space. Credit packs start from ¥9. Failed, timed-out or errored generations are refunded according to platform rules.
+Current prices, promotions, quotas and expiration terms are shown in the [Credits Center](https://aisounds.cn/points). Check the credit cost displayed before submitting each task. Failed, timed-out or errored generations are handled under the platform refund rules.
 
 ---
 
@@ -152,8 +159,8 @@ The license is non-exclusive. Users may not redistribute, resell, bundle for sal
 - Jianying Import Beta is not an official Jianying API. It does not open Jianying automatically and never overwrites existing drafts.
 - Jianying import requires the user to manually choose and authorize the Jianying draft folder.
 - AI Video BGM focuses on instrumental background music by default, not vocal songs.
-- The public AI dubbing surface currently includes short-form dubbing, long-form dubbing and voice podcasts. Closed voice-lab or voice-cloning entries should not be presented as currently open product features.
-- Uploaded original videos are primarily kept locally in the browser and should not be described as long-term platform assets.
+- AI dubbing supports short-form dubbing, long-form dubbing and voice podcasts. Available voices and capabilities are shown in the product.
+- The browser-side video BGM workflow primarily keeps original videos locally. Other agents may use different upload and processing flows; check the relevant page for details.
 - Projects and sound packs are AiSounds asset organization concepts. They are not Jianying projects and do not overwrite an open Jianying project.
 - Team Edition still uses personal accounts. Users switch workspaces to enter personal or team spaces.
 
@@ -162,6 +169,9 @@ The license is non-exclusive. Users may not redistribute, resell, bundle for sal
 ## Links
 
 - Website: [aisounds.cn](https://aisounds.cn)
+- AI Agents: [aisounds.cn/agents](https://aisounds.cn/agents)
+- Prompt Templates: [aisounds.cn/prompts](https://aisounds.cn/prompts)
+- Free Trial: [aisounds.cn/free](https://aisounds.cn/free)
 - AI Video BGM: [aisounds.cn/video-bgm](https://aisounds.cn/video-bgm)
 - AI Dubbing: [aisounds.cn/tts](https://aisounds.cn/tts)
 - Short / Long Dubbing: [aisounds.cn/tts/synthesis](https://aisounds.cn/tts/synthesis)
@@ -179,7 +189,7 @@ The license is non-exclusive. Users may not redistribute, resell, bundle for sal
 
 **What is AiSounds?**
 
-AiSounds is an AI audio creation platform with AI video BGM, AI dubbing, AI sound effects, AI music, subtitles, Jianying Import Beta, browser editing, My Assets, projects, reusable sound packs and team workspaces.
+AiSounds is an AI audio creation platform with AI video BGM, dubbing, sound effects, music, subtitles, focused agents, audio cleanup, prompt templates, Jianying Import Beta, browser editing and team asset management.
 
 **Can it generate background music from an uploaded video?**
 
@@ -215,6 +225,6 @@ Yes, for videos, games, podcasts and advertising projects. Redistribution, resal
 
 **Is there a free trial?**
 
-Yes. New users receive 200 credits, plus daily check-in credits.
+Yes. See [Free Trial](https://aisounds.cn/free) for current rewards. Credit costs vary by feature and task settings; review the displayed cost before submitting a task.
 
-**Last updated: June 26, 2026**
+**Last updated: September 10, 2026**
